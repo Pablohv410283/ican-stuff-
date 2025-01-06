@@ -59,12 +59,12 @@
     </header>
     <!-- end header section -->
     <!-- slider section -->
-    <section class="slider_section ">
+    <section class="slider_section">
       <div id="customCarousel1" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="container ">
-              <div class="row">
+            <div class="container">
+              <div class="row d-flex align-items-center">
                 <div class="col-md-6">
                   <div class="detail-box">
                     <h1>
@@ -72,23 +72,21 @@
                       Ican Portfolio
                     </h1>
                     <p>
-                      A website I made to show off a couple of the many projects I have completed in Ican </p>
-                    </div>
+                      A website I made to show off a couple of the many projects I have completed in Ican
+                    </p>
                   </div>
                 </div>
                 <div class="col-md-6">
-                  <div class="row">
-                    <div class=" col-lg-10 mx-auto">
-                      <div class="img-box">
-                        <img src="images/hrhs.png" alt="">
-                      </div>
-                    </div>
+                  <div class="img-box">
+                    <img src="images/hrhs.png" alt="Portfolio Image" class="img-fluid">
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+    
+        <!-- Carousel Controls -->
         <div class="carousel_btn-box">
           <a class="carousel-control-prev" href="#customCarousel1" role="button" data-slide="prev">
             <i class="fa fa-angle-left" aria-hidden="true"></i>
@@ -101,7 +99,21 @@
         </div>
       </div>
     </section>
-    <!-- end slider section -->
+    
+    <style>
+      .slider_section .carousel-item {
+        display: flex;
+        align-items: center;
+      }
+      .detail-box {
+        padding-right: 20px; /* Adds space between text and image */
+      }
+      .img-box img {
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+  <!-- end slider section -->
   </div>
 
   <!-- service section -->
