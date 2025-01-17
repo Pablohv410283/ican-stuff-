@@ -1035,4 +1035,11 @@ a:focus {
 .footer_section p a {
   color: inherit;
 }
+
+.center-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*# sourceMappingURL=style.css.map */
